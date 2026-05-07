@@ -302,60 +302,6 @@ input:focus {
     font-size: 28px;
 }
 
-.alerts {
-    background: rgba(248, 250, 252, 0.96);
-    border-radius: 24px;
-    padding: 24px;
-    box-shadow: var(--shadow);
-    margin-top: 20px;
-}
-
-.alerts h2 {
-    margin: 0 0 14px;
-    font-size: 18px;
-}
-
-.alerts form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    align-items: center;
-}
-
-.alerts label {
-    font-size: 14px;
-    color: var(--text-soft);
-}
-
-.alerts input,
-.alerts select {
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid var(--stroke);
-    font-size: 14px;
-}
-
-.alerts button {
-    grid-column: span 2;
-    padding: 12px;
-    background: var(--accent);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.alerts button:hover {
-    background: var(--accent-strong);
-}
-
-#alert-status {
-    margin-top: 10px;
-    font-size: 14px;
-    color: var(--text-soft);
-}
 
 .routine-assistant {
     background: rgba(248, 250, 252, 0.96);
